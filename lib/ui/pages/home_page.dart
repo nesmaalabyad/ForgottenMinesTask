@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News App'),
+        title: Text('News Appp'),
         centerTitle: true,
       ),
       body: BlocBuilder<NewsBloc, NewsState>(
